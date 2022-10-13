@@ -1,5 +1,5 @@
 const toDo = require("../models/toDoModel");
-const User = require("../../models/userModel");
+const User = require("../models/userModel");
 
 const createToDo = async (req, res) => {
   const { userId } = req.user;
